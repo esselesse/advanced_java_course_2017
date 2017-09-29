@@ -1,4 +1,4 @@
-/**
+package Fibonacci; /**
  * Created by esselesse on 25.09.2017.
  */
 import java.math.BigInteger;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import static java.lang.Long.reverse;
 
-public class Main {
+public class Fibonacci {
     public static long a0=1;
     public static long b0=0;
     public static long c0=0;

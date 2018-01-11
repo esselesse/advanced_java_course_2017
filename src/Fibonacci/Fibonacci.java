@@ -1,4 +1,5 @@
-package Fibonacci; /**
+package Fibonacci;
+/**
  * Created by esselesse on 25.09.2017.
  */
 import java.math.BigInteger;
@@ -6,21 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static java.lang.Long.reverse;
-
 public class Fibonacci {
-    //public static long a0=1;
-    //public static long b0=0;
-    //public static long c0=0;
-    //public static long d0=0;
-
-    //public static long a1=0;
-    //public static long b1=0;
-    //public static long c1=0;
-    //public static long d1=0;
-
-    static List<Long> longs = new ArrayList<Long>();
-    static List<Long> longs1 = new ArrayList<Long>();
+    private static List<Long> longs = new ArrayList<Long>();
+    private static List<Long> longs1 = new ArrayList<Long>();
 
     public static void main(String[] args) {
         long n;
@@ -31,7 +20,7 @@ public class Fibonacci {
         fib(n);
     }
 
-    public static void fib(long n) {
+    private static void fib(long n) {
         boolean f=true;
         int temp;
         while (n>0) {
